@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>代码说明</title>
+    <style>
+        :root {
+            --bg-color: #F5F6FA;               
+            --writing-area-bg-color: #F4F4F4;  
+            --text-color: #432913;             
+            --font-family-paragraph: "Times New Roman", "文津宋体", "WenJinSong", "思源宋体", "Source Han Serif SC", "Noto Serif CJK SC", serif;
+            --writing-area-width: 900px;
+            --content-width: 792px;
+        }
+
+        html {
+            font-size: 16px;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            font-family: var(--font-family-paragraph);
+        }
+
+        #write {
+            max-width: var(--writing-area-width);
+            background-color: var(--writing-area-bg-color);
+            margin: 0 auto;
+            padding: 40px 0;
+        }
+
+        p {
+            font-family: var(--font-family-paragraph);
+            font-size: 22px;
+            line-height: 1.8;
+            text-indent: 2em;
+            text-align: left;
+            margin: 0 auto;
+            max-width: var(--content-width);
+        }
+    </style>
+</head>
+<body>
+    <div id="write">
+        <p> </p>
+		<p>在完成某国家自然基金面上项目及某省级自然科学基金重点项目过程中形成的有关遥感反演的计算代码。</p>
+		<p>基于matlab，正在逐步转码到python。</p>
+    </div>
+</body>
+</html>
